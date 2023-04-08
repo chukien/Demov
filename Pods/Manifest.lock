@@ -1,16 +1,30 @@
 PODS:
   - Alamofire (5.6.4)
+  - Maple (1.2.4):
+    - Maple/Core (= 1.2.4)
+  - Maple/Core (1.2.4):
+    - Maple/Foundation
+    - Maple/Protocol
+    - Maple/Shared
+    - Maple/UIKit
+  - Maple/Foundation (1.2.4)
+  - Maple/Protocol (1.2.4)
+  - Maple/Shared (1.2.4)
+  - Maple/UIKit (1.2.4)
 
 DEPENDENCIES:
   - Alamofire
+  - Maple
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Maple
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Maple: da2c4742671bd617a6613f26f2b4697a5b3a7735
 
-PODFILE CHECKSUM: 0849d6a4ff5a196af6c4dbe3663f6e970278137d
+PODFILE CHECKSUM: 790d47e765f1974f9d1ebf577464cd4bfb7b0aa3
 
 COCOAPODS: 1.11.3
