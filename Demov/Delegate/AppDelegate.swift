@@ -8,12 +8,14 @@
 import UIKit
 
 @main
+@available(iOS 13.0, *)
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let windown = UIWindow(frame: UIScreen.main.bounds)
+        windown.rootViewController = MainVC()
+        windown.makeKeyAndVisible()
         return true
     }
 
